@@ -1,0 +1,516 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:consolas;
+}
+body
+{
+background:#d0d0ff;
+}
+
+.header
+{
+
+min-height:100vh;
+background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/back2.jpg);
+background-size:cover;
+background-position:center;
+
+
+}
+.logo 
+{
+margin-left:100px;
+margin-top:20px;
+display:inline-block;
+}
+.logo  h1
+{
+display:inline;font-family:consolas;color:#fff;
+text-transform:uppercase;letter-spacing:3px;
+}
+
+.t1
+{
+color:#2196f3;
+font-size:35px;
+}
+.t2
+{
+font-size:35px;
+color:#2196f3;
+margin-left:5px;
+}
+ul
+{
+text-align:right;
+padding:30px 30px;
+float:right;
+
+}
+.header ul li
+{
+display:inline;
+list-style:none;
+border-right:2px solid #2196f3;
+float:left;
+line-height:35px;
+}
+.header ul li a
+{
+text-decoration:none;
+color:#fff;
+font-size:16px;
+font-weight:600;
+font-family:arial
+background:#2196f3;
+display:block;
+padding:0px 22px;
+transition:1s;
+font-family:consolas;
+}
+.header ul li a:hover
+{
+background:#2196f3;
+
+}
+.header-txt
+{
+position:absolute;
+margin: 0px auto;
+text-align:center;
+left:50%;
+top:50%;
+transform:translate(-50%,-50%);
+color:#fff;
+
+}
+.header-txt h1
+{
+color:#2196f3;
+font-size:20px;
+margin-bottom:5px;
+text-transform:uppercase;
+letter-spacing:4px;
+font-family:consolas;
+}
+.header-txt .s1
+{
+color:#aaa;
+font-size:28px;
+font-family:consolas;
+font-weight:600;
+margin-top:10px;
+display:block;
+margin-bottom:30px;
+}
+
+.header-txt a
+{
+color:#2196f3;
+font-size:20px;
+font-weight:600;
+border:2px solid #2196f3;
+text-decoration:none;
+padding:10px 25px;
+transition:1s;
+
+}
+.header-txt a:hover
+{
+background:#2196f3;
+color:#fff;
+box-shadow:0px 0px 10px #2196f3, 0px 0px 20px #2196f3;
+}
+
+.nav li:nth-child(1)
+{
+background:#2196f3;
+}
+
+
+
+
+.houses p
+{
+text-align:center;
+margin-top:10px;
+diplay:inline:block;
+
+}
+table
+{
+width:1000px;
+height:400px;
+margin:40px auto;
+box-shadow:0px 0px 10px 0px black;
+}
+td
+{
+width:250px;
+text-align:center;
+padding:0;
+}
+img
+{
+width:250px;
+height:250px;
+
+}
+
+.h
+{
+text-align:center;
+color:#2196f3;
+margin-top:10px;
+font-size:25px;
+font-family:consolas;
+margin-top:40px;
+text-transform:uppercase;
+}
+
+.td1
+{
+background:linear-gradient(60deg,#29323c,#242378);
+color:#fff;
+padding:10px;
+}
+.td2
+{
+background:linear-gradient(60deg,#29323c,#f9c900);
+color:#fff;
+padding:10px;
+}
+.td3
+{
+background:linear-gradient(60deg,#29323c,#336733);
+color:#fff;
+padding:10px;
+}
+.td4
+{
+background:linear-gradient(60deg,#29323c,#671111);
+color:#fff;
+padding:10px;
+}
+.main h1
+{
+font-family:consolas;
+margin-bottom:20px;
+}
+.main p
+{
+font-family:consolas;
+}
+
+
+
+
+
+
+
+
+
+
+.row
+{
+margin-top:5%;
+display:flex;
+justify-content:space-between;
+margin-top:40px;
+}
+.facilities
+{
+width:80%;
+margin:100px auto;
+text-align:center;
+padding-top:50px;
+}
+
+
+.facilities h1
+{
+font-size:25px;
+margin-bottom:10px;
+text-transform:uppercase;
+color:#2196f3;
+}
+.facilities-col
+{
+flex-basis:31%;
+border-radius:10px;
+margin-bottom:5%;
+text-align:left;
+}
+
+.facilities-col img
+{
+width:100%;
+border-radius:10px;
+height:200px;
+box-shadow:0px 0px 5px 0px black;
+}
+.facilities-col img:hover
+{
+box-shadow:0px 0px 10px 0px #1290c1;
+}
+
+.facilities-col p
+{
+padding:0;
+color:#333;
+
+}
+
+.facilities-col h3
+{
+margin-top:16px;
+margin-bottom:15px;
+text-align:left;
+font-weight:900;
+font-size:24px;
+text-transform:uppercase;
+color:#1290c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.professors
+{
+margin:40px auto;
+width:80%;
+}
+.professors h2
+{
+color:#2196f3;
+font-size:25px;
+font-family:consolas;
+text-align:center;
+text-transform:uppercase;
+}
+
+.row1
+{
+display:flex;
+justify-content:space-between;
+margin-top:40px;
+}
+.row2
+{
+display:flex;
+justify-content:space-between;
+width:70%;
+margin:auto;
+margin-top:40px;
+position:relative;
+}
+.row1 img
+{
+width:100%;
+height:450px;
+}
+.row2 img
+{
+width:300px;
+height:450px;
+border-radius:10px;
+margin:auto;
+}
+
+
+.col
+{
+width:300px;
+border-radius:10px;
+margin-bottom:30px;
+position:relative;
+overflow:hidden;
+margin-top:30px;
+text-align:center;
+}
+.layer
+{
+background:transparent;
+height:100%;
+width:100%;
+position:absolute;
+top:0;
+left:0;
+transition:.5s;
+}
+.layer:hover
+{
+background:#2196f3;
+opacity:0.8;
+}
+.layer h1
+{
+width:100%;
+font-weight:500;
+color:#fff;
+font-size:26px;
+bottom:0;
+left:50%;
+transform:translateX(-50%);
+position:absolute;
+opacity:0;
+transition:.5s;
+font-family:consolas;
+
+}
+.layer:hover h1
+{
+bottom:49%;
+opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form
+{
+
+width:400px;
+height:500px;
+text-align:center;
+margin:80px auto;
+box-shadow:0px 0px 5px 0px black;
+border-radius:10px;
+}
+.form h1
+{
+display:inline-block;
+color:#2196f3;
+font-size:26px;
+margin-top:10px;
+}
+.form input
+{
+width:300px;
+height:30px;
+margin-top:30px;
+font-size:18px;
+outline:none;
+padding:7px;
+border:none;
+border-bottom:2px solid #2196f3;
+background:#d0d0ff;
+font-weight:600;
+}
+.form button
+{
+width:100px;
+padding:10px;
+margin-top:30px;
+background:#2196f3;
+border-radius:8px;
+color:white;
+outline:none;
+border:none;
+font-size:15px;
+font-weight:600;
+box-shadow:0px 0px 10px 0px#2196f3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .footer{
+        width:100%;
+        height:270px;
+        background:#8b8b8b;
+        display:flex;
+        
+        margin-top:100px;
+        position:absolute;
+        margin-bttom:0;
+      }
+
+      .icons{
+
+        width:50%;
+        height:100%;
+        text-align:center;
+      }
+      .team{
+
+        width:50%;
+        height:100%;
+        text-align:center;
+        position:relative;
+
+      }
+      .team h1{
+        color:#fff;
+        font-size:25px;
+        font-family:consolas;
+        margin-top:20px;
+
+      }
+      .members{
+        width:200px;
+      }
+      .section{
+        width:400px;
+      }
+       ul{
+        text-align:center;
+      }
+       li{
+        list-style:none;
+        font-family:consolas;
+        font-size:20px;
+      }
+      .flex{
+        display:flex;
+        margin-left:40px;
+        
+        color:white;
+        font-size:18px;
+        font-family:consolas;
+      }
+      .footer img{
+        width:50px;
+        height:50px;
+        border-radius:50px;
+        margin-top:100px;
+        margin-left:10px;
+      }
